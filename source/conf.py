@@ -17,11 +17,11 @@ templates_path = ['_templates']
 # Sphinx Options
 html_theme = 'conestack'
 html_static_path = ['_static']
-html_extra_path = ['favicon.ico', 'leon-vr.png', 'feed-icon.png']
+html_extra_path = ['favicon.ico', 'leon-vr.webp', 'feed-icon.png']
 html_css_files = ['custom.css']
 html_title = "Techman83's meandering thoughts"
 html_theme_options = {
-    'logo_url': '/leon-vr.png',
+    'logo_url': '/leon-vr.webp',
     'logo_title': "Techman83's meandering thoughts",
     'logo_width': '40px',
     'logo_height': '40px',

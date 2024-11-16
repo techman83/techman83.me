@@ -5,6 +5,6 @@ I am an outgoing DevOps/Programmer/Developer with over 20 years of experience. I
 
 Outside of my day to day, I’m the infrastructure/indexing development lead for `KSP-CKAN <https://github.com/KSP-CKAN/CKAN/wiki>`_, the go-to mod manager for Kerbal Space Program. This involves working with a small team of developers located around the globe and ensuring operations are smooth for the predominantly non-developer user base.
 
-.. thumbnail:: /assets/me.jpeg
+.. thumbnail:: /assets/me.webp
     :class: figure center
-    :width: 600
+    :width: 400

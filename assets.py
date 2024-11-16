@@ -9,9 +9,9 @@ import requests
 ASSETS_URL = os.environ.get('TECHMAN83_ME_ASSETS', '').rstrip('/')
 ASSETS = [
     'favicon.ico',
-    'leon-vr.png',
+    'leon-vr.webp',
     'feed-icon.png',
-    'assets/me.jpeg',
+    'assets/me.webp',
 ]
 for file_path in Path('source', 'posts').rglob('**/*.md'):
     with file_path.open('r', encoding='utf-8') as file:

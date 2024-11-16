@@ -162,8 +162,7 @@ cython_debug/
 #.idea/
 
 source/assets/*
-source/favicon.png
-source/feed-icon.png
 source/favicon.ico
-source/leon-vr.png
+source/*.png
+source/*.webp
 *.whl
