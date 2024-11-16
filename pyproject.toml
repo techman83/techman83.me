@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "techman83s-world"
+version = "2.0"
+dependencies = [
+  "ablog",
+  "sphinx",
+  "sphinx-conestack-theme",
+  "sphinx-reredirects",
+  "sphinxcontrib-jquery",
+  "sphinxcontrib-youtube",
+  "myst_parser",
+  "requests",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Leon Wright", email = "techman83@gmail.com"},
+]
+description = "Just my website, via sphinx!"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Techman83/techman83.me"

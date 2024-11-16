@@ -1,0 +1,13 @@
+{% if ablog.archive %}
+<div class="cs-nav-toc">
+  <br>
+  <h3>{{ gettext('Archives') }}</h3>
+  <ul>
+    {% for coll in ablog.archive %} {% if coll %}
+    <li class="toctree-l1">
+      <a href="{{ pathto(coll.docname) }}">{{ coll }} ({{ coll|length }})</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</div>
+{% endif %}
