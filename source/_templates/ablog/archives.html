@@ -3,11 +3,15 @@
   <br>
   <h3>{{ gettext('Archives') }}</h3>
   <ul>
+    {%- set counter = namespace(value=0) -%}
     {% for coll in ablog.archive %} {% if coll %}
     <li class="toctree-l1">
       <a href="{{ pathto(coll.docname) }}">{{ coll }} ({{ coll|length }})</a>
-    </li>
+    </li>{% set counter.value = counter.value + coll|length %}
     {% endif %} {% endfor %}
+    <li class="toctree-l1">
+      <a href="/posts/archive.html">All ({{counter.value}})</a>
+    </li>
   </ul>
 </div>
 {% endif %}
