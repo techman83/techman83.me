@@ -10,12 +10,17 @@ extensions = [
     "sphinxcontrib.images",
     "sphinxcontrib.youtube",
     "sphinxcontrib.jquery",
+    "sphinx_sitemap",
 ]
 
 templates_path = ['_templates']
 
+# Sitemap
+sitemap_url_scheme = "{link}"
+
 # Sphinx Options
 html_theme = 'conestack'
+html_baseurl = 'https://techman83.me/'
 html_static_path = ['_static']
 html_extra_path = ['favicon.ico', 'leon-vr.webp', 'feed-icon.png']
 html_css_files = ['custom.css']
@@ -42,7 +47,7 @@ html_sidebars = {
 }
 
 # Ablog configuration
-blog_baseurl = "https://www.techman83.me"
+blog_baseurl = "https://techman83.me"
 blog_path = "posts/"
 blog_default_author = 'techman83'
 blog_authors = {'techman83': {'Leon Wright', 'https://techman83.me'}}

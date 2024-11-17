@@ -11,6 +11,7 @@ dependencies = [
   "sphinx-conestack-theme",
   "sphinx-reredirects",
   "sphinxcontrib-jquery",
+  "sphinx-sitemap",
   "sphinxcontrib-youtube",
   "myst_parser",
   "requests",
